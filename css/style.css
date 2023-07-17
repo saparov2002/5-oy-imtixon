@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+body{
+    background-color: #1C2128;
+}
+.wrapper{
+    display: flex;
+    align-items: start;
+   
+}
+.user-avatar{
+    border-radius: 50%;
+}
+.wrapper__right{
+    width: 100%;
+}
+.wrapper__left-img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 400px;
+}
+.wrapper__left-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: #818284;
+    border-radius: 10px;
+    padding: 15px 0;
+    
+}
+.wrapper__left-text{
+    font-size: 25px;
+    color: #525963;
+    display: block;
+    margin: 20px 0 20px 0;
+}
+.nav-tabs{
+    width: 100%;
+}
+.items1{
+    margin-top: 30px;
+}
+.items1 ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+}
+.item1{
+   
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.item1 a {
+    text-decoration: none;
+}
+.public{
+    border: 1px solid rgb(182, 170, 170);
+    border-radius: 10px;
+    padding: 0px 7px;
+   
+    
+}
+.dropdown__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search_input{
+    padding-right: 100px;
+    border: 1px solid rgb(171, 163, 163);
+
+    border-radius: 7px;
+    padding: 5px 200px 5px 5px;
+
+}
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.repo__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid rgb(145, 138, 138);
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.user-btn{
+  padding-right: 150px;
+  padding-left: 160px;
+  border: 1px solid rgb(137, 127, 127);
+  border-radius: 6px;
+}
+.user-avatar{
+    width: 350px;
+}
